@@ -7,33 +7,18 @@
 #bar {
     height: 10%;
     width: 100%;
-    background-color: rgb(116, 116, 214);
+    background-color: blue;
     position: fixed;
 }
-#menu ul li { position: sticky;
-    z-index: 1000;
-    top: 0;
-    background: white;
-    width: 100%;
-    background-color: rgb(109, 101, 171);
-    width: 100vw;
-    height: 60px;
-    justify-content: space-between;
-    align-items: center;
-}
-a {
-    color: rgb(196, 193, 193);
-    padding: 20px;
-    background-color: rgb(39, 39, 39);
-}
 
+#menu ul li {
+    display: inline;
+    float: left;
+    padding: 0 10px 0 10px;
+}
 
 #form {
     padding-left: 30px;
 }
-#SegmetoMedios, #SegmetoAlto, #SegmetoBajos
-  li {position: absolute;
-        font-family: 'Inter';
-        font-style: normal; 
-        color: #000000;
-    }
+
+
